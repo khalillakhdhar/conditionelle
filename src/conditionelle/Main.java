@@ -9,7 +9,8 @@ public class Main {
 		System.out.println(parite);
 		String divisibilite=c.divisibilite(365);
 		System.out.println(divisibilite);
-		
+		Produit p=new Produit("TV LCD", 1200, 40);
+		System.out.println(p.toString());
 	}
 
 }
